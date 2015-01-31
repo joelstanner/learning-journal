@@ -1,20 +1,77 @@
+/*http://www.degraeve.com/color-palette/index.php?q=https://pbs.twimg.com/profile_images/1671065112/Joel_400x400.png,04132C005AA2018FD65CEEFAE7FBFB,000F400062F300B2FF0DFFFFDCFFFF*/
+
+/* colors:
+#001133
+#0055aa
+#0088dd
+#55eeff
+#eeffff
+dull	
+#001144
+#0066ee
+#00aaff
+#11ffff
+#ddffff
+vibrant	*/
+
+
 a {
     text-decoration: none;
 }
 
 body {
     font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    background-color: #E3F4F4;
 }
 
-nav > ul > li{
+header h1 {
+    font-size: 1.5em;
+    color: #014;
+}
+
+nav {
+    background-color: #00aaff;
+    margin-bottom: 18px;
+    overflow: hidden;
+    min-width: 737px;
+}
+
+nav i {
+    margin-right: 5px;
+    color: #eeffff;
+}
+
+nav > ul > li {
+   
     display: inline-block;
     margin: auto;
 }
+
+
+nav > ul > li > a {
+    color: #ddffff;
+}
+
+nav > ul > li >a:hover {
+    color: #A8FFFF;
+}
+
 nav > ul > li.logo {
-    font-size: 2em;    
+    font-size: 2em;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #eeffff;
+    margin-right: 25px;
+    padding: 5px 25px 5px 5px;
+}
+
+.nav-a {
+    padding-right: 20px;
 }
 
 #wrapper {
-    margin: 20px;
+    margin: 10px 0 10px 10px;
     
 }
+
+
