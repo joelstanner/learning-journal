@@ -54,7 +54,7 @@ header h1 {
     height: 200px;
     position: relative;
     margin-left: 20px;
-    right: 32px;
+    right: 116%;
 }
 
 nav {
@@ -101,6 +101,14 @@ section .entries {
     margin-left: 20px;
 }
 
+li.date a {
+    bottom: 5px;
+    color: #980100;
+    font-size: 0.7em;
+    margin-left: 35px;
+    position: relative;
+    }
+
 li.entry {
     color: #06e;
     margin-top: 35px;
@@ -119,16 +127,10 @@ li.entry > a:hover {
     color: #05a;
 }
 
-li.date a {
-    bottom: 5px;
-    color: #6464ae;
-    font-size: 0.7em;
-    margin-left: 35px;
-    position: relative;
-    }
-
 #wrapper {
     margin: 10px 0 10px 10px;
-    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
