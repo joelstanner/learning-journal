@@ -3,17 +3,18 @@ a {
 }
 
 body {
-    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    color: #014;
+    font-family: "franklin-gothic-urw",sans-serif;
     background-color: #E3F4F4;
 }
 
 footer {
     color: #959595;
     clear: both;
-    margin-left: 128px; 
+    margin-left: 128px;
     margin-top: 32px;
     font-size: 0.6em;
-    
+
 }
 
 h1 {
@@ -25,10 +26,15 @@ h1 {
 }
 
 h2 {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+h2.date {
     color: #980100;
     font-size: 0.8em;
     margin:0 25px 25px 25px;
-    
+
 }
 
 header {
@@ -40,6 +46,7 @@ header h1 {
     font-size: 2em;
     color: #014;
     margin-left: 48px;
+    min-width: 830px;
 }
 
 .head-shot {
@@ -57,49 +64,8 @@ header h1 {
     position: relative;
 }
 
-nav {
-    background-color: #00aaff;
-    margin-bottom: 30px;
-    overflow: hidden;
-    min-width: 737px;
-}
-
-nav i {
-    margin-right: 5px;
-    color: #eeffff;
-}
-
-nav > ul > li {
-   
-    display: inline-block;
-    margin: auto;
-}
-
-
-nav > ul > li > a {
-    color: #ddffff;
-}
-
-nav > ul > li >a:hover {
-    color: #A8FFFF;
-}
-
-nav > ul > li.logo {
-    font-family: "stencil-std",serif;
-    font-size: 2em;
-    border-right: 1px;
-    border-style: solid;
-    border-color: #eeffff;
-    margin-right: 25px;
-    padding: 5px 25px 5px 5px;
-}
-
-.nav-a {
-    padding-right: 20px;
-}
-
-section .entries {
-    margin-left: 20px;
+label {
+    display: block;
 }
 
 li.date a {
@@ -131,6 +97,50 @@ li.entry > a:hover {
     color: #05a;
 }
 
+nav {
+    background-color: #00aaff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    min-width: 780px;
+}
+
+nav i {
+    margin-right: 5px;
+    color: #eeffff;
+}
+
+nav > ul > li {
+
+    display: inline-block;
+    margin: auto;
+}
+
+nav > ul > li > a {
+    color: #ddffff;
+}
+
+nav > ul > li >a:hover {
+    color: #A8FFFF;
+}
+
+nav > ul > li.logo {
+    font-family: "stencil-std",serif;
+    font-size: 2em;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #eeffff;
+    margin-right: 25px;
+    padding: 5px 25px 5px 5px;
+}
+
+.nav-a {
+    padding-right: 20px;
+}
+
+.new-entryform div{
+    margin: 10px;
+}
+
 p {
     color: #014;
     font-family: "franklin-gothic-urw",sans-serif;
@@ -138,6 +148,14 @@ p {
     line-height: 1.5;
     margin: 0 15px 10px;
     width: 666px;
+}
+
+section .entries {
+    margin-left: 20px;
+}
+
+textarea {
+    height: auto;
 }
 
 #wrapper {
@@ -157,7 +175,7 @@ p {
 #0088dd
 #55eeff
 #eeffff
-dull	
+dull
 #001144
 #0066ee
 #00aaff
