@@ -8,6 +8,23 @@ body {
     background-color: #E3F4F4;
 }
 
+button {
+    padding:5px 15px;
+    background:#11ffff;
+    border:none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background:#45c4d2;
+}
+
 footer {
     color: #959595;
     clear: both;
@@ -45,7 +62,9 @@ header h1 {
     font-family: "stencil-std",serif;
     font-size: 2em;
     color: #014;
-    margin-left: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     min-width: 830px;
 }
 
@@ -53,7 +72,7 @@ header h1 {
     float: right;
     margin-left: 20px;
     margin-right: 0px;
-    padding: 0 20px 0 20px;
+    padding: 0 0 0 20px;
     width: 200px;
     height: 200px;
 }
@@ -64,9 +83,25 @@ header h1 {
     position: relative;
 }
 
+input[type=submit] {
+    padding:5px 15px;
+    background:#11ffff;
+    border: none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-left: 10px;
+}
+
+input[type=submit]:hover {
+    background:#45c4d2;
+}
+
 label {
     display: block;
 }
+
 
 li.date a {
     bottom: 5px;
@@ -148,6 +183,10 @@ p {
     line-height: 1.5;
     margin: 0 15px 10px;
     width: 666px;
+}
+
+.post-title{
+    font-size: 1.3em;
 }
 
 section .entries {
